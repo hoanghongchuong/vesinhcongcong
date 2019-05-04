@@ -984,3 +984,11 @@ footer{
 footer .center{
     color: #fff;
 }
+.name-company{
+    color: #ed1c24;
+    font-family: RoboB;
+    font-size: 20px;
+}
+footer .center p{
+    font-size: 18px;
+}
