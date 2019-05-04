@@ -294,7 +294,10 @@ a:hover {
 .list-cate-home > ul > li:hover > a {
     color: #1a6b8f;
 }
-
+.slider{
+    width: 100%;
+    float: left;
+}
 .slider img{
 	width: 100%;
 	/*height: 100% !important;*/
@@ -445,14 +448,24 @@ a:hover {
 	padding-bottom: 5px;
 }
 .read-more{
-	font-size: 17px;
-	color: #7c7a7a;
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+.read-more a{
+    font-size: 15px;
+    color: #fff;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+    background: #b20000;
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-family: RoboL;
+
 }
 .read-more span{
-    color: #f9c51c;
+
 }
 .name_product{
 	font-family: MyriaB;
@@ -544,10 +557,9 @@ a:hover {
 footer{
 	width: 100%;
 	float: left;
-	background: url('../images/bg_footer.png');
-    -webkit-background-size: cover;
-    background-size: cover;
+	background-color: rgb(26, 28, 39);
 	padding-top: 30px;
+    padding-bottom: 40px;
 }
 .company-name{
 	font-size: 20px;
@@ -879,4 +891,96 @@ footer{
 }
 .menu-sidebar-child li a:hover{
     color: #1a6b8f;
+}
+.box-linhvuc{
+    background: url('../images/bg.jpg');
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin-bottom: 20px;
+}
+.box-linhvuc h3{
+    text-align: center;
+    font-family: RoboB;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.box-linhvuc .media img{
+    height: 60px;
+    width: 60px;
+}
+.box-linhvuc .media h4{
+    margin-top: 20px;
+    font-family: RoboB;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+}
+.title-cate-service{
+    text-align: center;
+    background: #fed806;
+    font-family: RoboB;
+    font-size: 26px;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+    color: #000;
+    margin-bottom: 20px;
+}
+.name-service{
+    font-family: RoboB;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+}
+.name-service a{
+    color: #000;
+}
+.fix-animation{
+    overflow:hidden;
+}
+.fix-animation img{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.fix-animation:hover img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+.box-service .item{
+    margin-bottom: 30px;
+}
+.feedback{
+    background-color: rgb(237, 234, 234);
+}
+.feedback h3{
+    text-align: center;
+    font-family: RoboB;
+    color: #000;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.list-item-feedback{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.list-item-feedback img{
+    width: 150px;
+    height: 150px;
+    border-radius: 999px;
+    object-fit: cover;
+}
+.list-item-feedback i{
+    color: #d26e4b;
+    font-size: 18px;
+}
+.box-map iframe{
+    width: 100%;
+    height: 300px;
+}
+
+footer .center{
+    color: #fff;
 }
