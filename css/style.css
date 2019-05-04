@@ -471,6 +471,7 @@ a:hover {
 	font-family: MyriaB;
 	font-size: 20px;
 	text-align: center;
+    margin-top: 10px;
 	/*padding-top: 10px;
     padding-bottom: 10px;*/
 }
@@ -748,7 +749,7 @@ footer{
 }
 .list-item-product img{
     width: 100%;
-    height: 217px;
+    height: 190px;
 }
 .box-product-detail {
     margin-top: 30px;
@@ -991,4 +992,24 @@ footer .center{
 }
 footer .center p{
     font-size: 18px;
+}
+.box-content-detail{
+    width: 100%;
+    float: left;
+}
+.product_name{
+    font-family: RoboB;
+    color: #000;
+    font-size: 30px;
+    margin-top: 0px;
+}
+.detail_contentx{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-family: RoboB;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.content_detail_product{
+    margin-bottom: 30px;
 }
